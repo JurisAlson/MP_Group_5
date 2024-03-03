@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #18191A;
+}
+.Navbar{
+    background-color: #242526;
+    top: 0%;
+    position: fixed;
+    width: 100%;
+    padding-top: 40px;
+    z-index: 9999900;
+}
