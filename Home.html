@@ -5,11 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="Home.css">
-</head>
-<body>
-    <div class="Navbar">
-        <h2>Navbar</h2>
-    </div>
     
+</head>
+
+<body>
+
+    <!--Top Nav bar -->
+    <div class="Top_Navbar">
+        <!-- Logo -->
+        <h2 class="Logo">Logo</h2>
+
+        <!-- Search Bar -->
+        <div class="Search_Bar">
+            <span class="Search_Container">
+                <ion-icon name="search-outline" class="Search_Icon"></ion-icon>
+                <input type="text" placeholder="Search..." class="Search_Input">
+            </span>
+        </div>
+        
+        <!-- Notification and Profile and Add -->
+        <div class="Notification_Profile">
+            <ion-icon name="add-outline" class="Add"></ion-icon>
+            <ion-icon name="notifications-circle-outline" class="Notification_Icon"></ion-icon>
+            <ion-icon name="person-circle-outline" class="Person_Icon"></ion-icon>
+        </div>
+    </div>
+
+    <!--Side Nav bar -->
+    <div class="Side_Navbar">
+        <div class="Label">
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>

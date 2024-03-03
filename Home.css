@@ -1,13 +1,74 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #18191A;
+    box-sizing: border-box;
+    --Border-Lines: #393A3B;
 }
-.Navbar{
+
+/* Top Navbar START */
+.Top_Navbar {
     background-color: #242526;
     top: 0%;
     position: fixed;
     width: 100%;
-    padding-top: 40px;
     z-index: 9999900;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid var(--Border-Lines);
 }
+.Logo {
+    margin: 0; 
+}
+
+.Person_Icon{
+    margin-right: 20px;
+}
+.Person_Icon,
+.Notification_Icon,
+.Add{
+    color: #555;
+    font-size: 40px;
+}
+/* Top Navbar END*/
+
+
+/* Search Bar START */
+.Search_Bar {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-grow: 1; 
+    justify-content: center; 
+}
+.Search_Container {
+    position: relative;
+}
+.Search_Icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #f0ebeb; 
+}
+.Search_Input {
+    width: 500px;
+    background-color: #3A3B3C;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+}
+/* Search Bar END */
+
+
+/* Side Navbar START */
+.Side_Navbar {
+    background-color: #242526;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    border-right: 1px solid var(--Border-Lines);
+}
+/* Side Navbar END*/
