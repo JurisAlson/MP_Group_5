@@ -3,7 +3,6 @@ body {
     padding: 0;
     background-color: #18191A;
     box-sizing: border-box;
-
     --Border-Lines: #393A3B;
 }
 
@@ -67,24 +66,25 @@ body {
 
 /* Side Navbar START */
 .Side_Navbar {
-    
     background-color: #242526;
     width: 200px;
     height: 100vh;
     position: fixed;
     border-right: 1px solid var(--Border-Lines);
 }
+
 .Sidebar_Home {
+    text-decoration: none;
     padding-bottom: 20px;
     margin-top: 100px;
     margin-left: 20px;
-    text-decoration: none;
     color: #f0ebeb;
     font-size: 18px;
     text-align: start;
     position: relative;
 }
-.Sidebar_profile{
+
+.Sidebar_profile {
     padding-bottom: 20px;
     margin-left: 20px;
     text-decoration: none;
@@ -93,7 +93,18 @@ body {
     text-align: start;
     position: relative;
 }
-.Sidebar_profile::after {
+
+.Sidebar_Store {
+    padding-bottom: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #f0ebeb;
+    font-size: 18px;
+    text-align: start;
+    position: relative;
+}
+
+.Sidebar_Store::after {
     content: "";
     display: block;
     border-bottom: 1px solid var(--Border-Lines);
@@ -102,8 +113,17 @@ body {
     bottom: 0;
 }
 
+/* Individual hover states for each element */
+.Sidebar_Store:hover,
+.Sidebar_profile:hover,
+.Sidebar_Home:hover {    
+    background-color: #393A3B;
+
+}
+
 .Communities h3{
     text-align: center;
+    color:#a09e9e  ;
 
 }
 /* Side Navbar END*/
