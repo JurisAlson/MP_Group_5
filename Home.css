@@ -3,8 +3,10 @@ body {
     padding: 0;
     background-color: #18191A;
     box-sizing: border-box;
+
     --Border-Lines: #393A3B;
 }
+
 
 /* Top Navbar START */
 .Top_Navbar {
@@ -65,10 +67,43 @@ body {
 
 /* Side Navbar START */
 .Side_Navbar {
+    
     background-color: #242526;
     width: 200px;
     height: 100vh;
     position: fixed;
     border-right: 1px solid var(--Border-Lines);
+}
+.Sidebar_Home {
+    padding-bottom: 20px;
+    margin-top: 100px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #f0ebeb;
+    font-size: 18px;
+    text-align: start;
+    position: relative;
+}
+.Sidebar_profile{
+    padding-bottom: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #f0ebeb;
+    font-size: 18px;
+    text-align: start;
+    position: relative;
+}
+.Sidebar_profile::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid var(--Border-Lines);
+    width: 90%; /* Adjust the width as needed */
+    position: absolute;
+    bottom: 0;
+}
+
+.Communities h3{
+    text-align: center;
+
 }
 /* Side Navbar END*/
