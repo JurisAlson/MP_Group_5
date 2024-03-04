@@ -1,15 +1,18 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #18191A;
+    background-color: #0B1416;
     box-sizing: border-box;
     --Border-Lines: #393A3B;
 }
-
+div a {
+    color: inherit;
+    text-decoration: none; 
+}
 
 /* Top Navbar START */
 .Top_Navbar {
-    background-color: #242526;
+    background-color: #0B1416;
     top: 0%;
     position: fixed;
     width: 100%;
@@ -30,7 +33,7 @@ body {
 .Person_Icon,
 .Notification_Icon,
 .Add{
-    color: #555;
+    color:#f0ebeb;
     font-size: 40px;
 }
 /* Top Navbar END*/
@@ -38,7 +41,7 @@ body {
 
 /* Search Bar START */
 .Search_Bar {
-    padding: 10px;
+    padding: 20px;
     display: flex;
     align-items: center;
     flex-grow: 1; 
@@ -56,8 +59,8 @@ body {
 }
 .Search_Input {
     width: 500px;
-    background-color: #3A3B3C;
-    padding: 10px 40px;
+    background-color: #1A282D;
+    padding: 15px 40px;
     border: none;
     border-radius: 20px;
 }
@@ -66,7 +69,7 @@ body {
 
 /* Side Navbar START */
 .Side_Navbar {
-    background-color: #242526;
+    background-color: #0B1416;;
     width: 200px;
     height: 100vh;
     position: fixed;
@@ -76,8 +79,8 @@ body {
 .Sidebar_Home {
     text-decoration: none;
     padding-bottom: 20px;
-    margin-top: 100px;
-    margin-left: 20px;
+    margin-top: 140px;
+    margin-left: 30px;
     color: #f0ebeb;
     font-size: 18px;
     text-align: start;
@@ -86,7 +89,7 @@ body {
 
 .Sidebar_profile {
     padding-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
     text-decoration: none;
     color: #f0ebeb;
     font-size: 18px;
@@ -96,7 +99,7 @@ body {
 
 .Sidebar_Store {
     padding-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
     text-decoration: none;
     color: #f0ebeb;
     font-size: 18px;
@@ -108,7 +111,7 @@ body {
     content: "";
     display: block;
     border-bottom: 1px solid var(--Border-Lines);
-    width: 90%; /* Adjust the width as needed */
+    width: 90%; 
     position: absolute;
     bottom: 0;
 }
@@ -118,11 +121,21 @@ body {
 .Sidebar_profile:hover,
 .Sidebar_Home:hover {    
     background-color: #393A3B;
-
+    border-radius: 5px;
+    width: 160px;
 }
 .Communities h3{
     text-align: center;
-    color:#a09e9e  ;
+    color:#a09e9e;
 
+}
+/*Side Navbar Community*/
+.CreateCouminity{
+    margin-left: 30px;
+    color:#fffcfc;
+    text-align: center;
+}
+.CreateCouminity a{
+    color: #fffcfc;
 }
 /* Side Navbar END*/
