@@ -129,6 +129,7 @@ div a {
     color: #f0ebeb;
     margin-top: 120px; 
     margin-left: 45%; 
+    margin-right: 12%; 
     transform: translateX(-50%); 
     border-bottom: 1px solid var(--Border-Lines);
 }
