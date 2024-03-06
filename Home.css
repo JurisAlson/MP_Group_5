@@ -7,7 +7,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 div a {
-    color: inherit;
     text-decoration: none;
 }
 
@@ -51,27 +50,30 @@ div a {
 }
 .Search_Icon {
     position: absolute;
-    left: 20px;
+    left: 170px;
     top: 50%;
     transform: translateY(-50%);
     color: #f0ebeb;
 }
 .Search_Input {
-    width: 1000px;
+    width: 700px;
+    margin-left: 150px;
     background-color: #1A282D;
-    padding: 20px 60px;
+    padding: 16px 60px;
     border: none;
     border-radius: 30px;
-    font-size: 20px;
+    font-size: 16px;
 }
 /* Search Bar END */
 
 
 /* Side Navbar START */
 .Side_Navbar {
-    margin-left: 120px;
+    padding-top: 90px;
+    margin-top: -100px;
+    margin-left: 100px;
     background-color: #0B1416;
-    width: 200px;
+    width: 240px;
     height: 100vh;
     position: fixed;
     border-right: 1px solid var(--Border-Lines);
@@ -85,7 +87,6 @@ div a {
 .Sidebar_profile,
 .Sidebar_Store {
     padding-bottom: 20px;
-    text-decoration: none;
     color: #f0ebeb;
     font-size: 16px;
     text-align: start;
@@ -106,54 +107,60 @@ div a {
     border-radius: 5px;
     width: 160px;
 }
+
+
+/* Side Navbar Community */
 .Communities h3 {
-    padding: 0px, 0px;
     font-size: 16px;
     color: #606a6b;
 }
-
-/* Side Navbar Community */
-.CreateCouminity {
+.Sidebar_Create {
     color: #fffcfc;
-    text-align: center;
+}
+.Sidebar_Create a {
+    font-size: 16px;
 }
 /* Side Navbar END */
 
 
-/* Feed */
-.News_Feed {
-    margin-left: 340px; 
-    margin-top: 120px;
-    flex: 0.5;
-    width: calc(30% - 360px); 
-    min-width: fit-content;
-    overflow-y: auto;
-    scrollbar-width: none;
-
+/* Feed START */
+.Label{
+    font-size: 22px;
+    color: #f0ebeb;
+    margin-top: 120px; 
+    margin-left: 45%; 
+    transform: translateX(-50%); 
+    border-bottom: 1px solid var(--Border-Lines);
 }
-
+.Feed_Container{
+    margin-top: 40px; 
+    margin-left: 360px;
+    flex: 0.5;
+    width: calc(30% - 360px);
+    min-width: fit-content;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
 .News_Post {
     background-color: #1A282D;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
-
 .News_Post h2 {
     color: #f0ebeb;
     font-size: 18px;
     margin-bottom: 10px;
 }
-
 .News_Post p {
     color: #a0a0a0;
     font-size: 14px;
     margin-bottom: 10px;
 }
-
 .News_Post a {
     color: #00aaff;
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
 }
+/* Feed END */
