@@ -28,11 +28,16 @@ body {
     padding: 0 40px;
     box-sizing: border-box;
 }
+/* Login Form Username START */
 form .txt_field{
     position: relative;
     border-bottom: 2px solid #adadad;
     margin: 30px 0;
 }
+/* Login Form Username END */
+
+
+/* Login Form Username/Password START */
 .txt_field input{
     width: 100%;
     padding: 0 5px;
@@ -43,6 +48,9 @@ form .txt_field{
     background: none;
     outline: none;
 }
+/* Login Form Username/Password END */
+
+/* Login Form Labels START */
 .txt_field label{
     position: absolute;
     top: 50%;
@@ -53,3 +61,4 @@ form .txt_field{
     pointer-events: none;
     transition: .5s;
 }
+/* Login Form Labels END */
