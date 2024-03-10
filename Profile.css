@@ -1,0 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0B1416;
+    --Border-Lines: #2d2d2e;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
