@@ -129,7 +129,7 @@ div a {
     color: #f0ebeb;
     margin-top: 120px; 
     margin-left: 45%; 
-    margin-right: 12%; 
+    width: 50%;
     transform: translateX(-50%); 
     border-bottom: 1px solid var(--Border-Lines);
 }
@@ -145,6 +145,7 @@ div a {
 .News_Post {
     background-color: #1A282D;
     padding: 20px;
+    width: 50%;
     margin-bottom: 20px;
     border-radius: 10px;
 }
