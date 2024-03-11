@@ -137,6 +137,7 @@ div a {
     
     font-size: 22px;
     display: flex;
+    margin-left: 80px;
 
 }
 
@@ -147,6 +148,8 @@ div a {
 
 .profileNav{
     display: flex;
+    align-items: center;
+    margin-left: 80px;
 }
 
 .profileOption{
@@ -166,3 +169,70 @@ div a {
     scrollbar-width: none;
 }
 /* Feed END */
+
+
+/* Timeline START */
+.Timeline {
+    margin-top: 40px;
+    margin-left: 360px;
+    margin-right: 220px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Timeline_Item {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.Timeline_Content {
+    background-color: #02354d;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    flex: 1;
+}
+
+/* Timeline END */
+
+
+/* Side-Profile START */
+.Side_Profile {
+    background-color: #1A282D;
+    padding: 20px;
+    margin-left: 1100px;
+    border-radius: 10px;
+}
+
+.Profile_Info {
+    display: flex;
+    align-items: center;
+}
+
+.Profile_Pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.Profile_Description {
+    margin-left: 15px;
+}
+
+.Profile_Description h3 {
+    margin: 0;
+    color: #f0ebeb;
+}
+
+.Profile_Description p {
+    margin: 5px 0;
+    color: #f0ebeb;
+}
+
+.Profile_Description a {
+    color: #f0ebeb;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Side-Profile START */
