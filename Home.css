@@ -25,7 +25,10 @@ div a {
     border-bottom: 1px solid var(--Border-Lines);
 }
 .Logo {
-    
+    text-decoration: underline;
+    font-weight: 900;
+    margin-left: 80px;
+    color: #f0ebeb;
 }
 .Person_Icon,
 .Notification_Icon,
@@ -91,7 +94,7 @@ div a {
 .Sidebar_About,
 .Sidebar_Question,
 .Sidebar_Settings
- {
+{
     padding-bottom: 20px;
     color: #f0ebeb;
     font-size: 16px;
@@ -118,6 +121,7 @@ div a {
 /* Side Navbar Community */
 .Communities h3,
 .Resources h3 {
+    font-weight: 900;
     font-size: 16px;
     color:#f0ebeb
 }

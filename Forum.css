@@ -86,7 +86,11 @@ div a {
 .Message_Icon,
 .Sidebar_Home,
 .Sidebar_profile,
-.Sidebar_Store {
+.Sidebar_Store,
+.Sidebar_About,
+.Sidebar_Question,
+.Sidebar_Settings
+{
     padding-bottom: 20px;
     color: #f0ebeb;
     font-size: 16px;
@@ -108,8 +112,9 @@ div a {
     border-radius: 5px;
     width: 160px;
 }
-
-.Communities{
+.Communities h3,
+.Resources h3{
+    font-weight: 900;
     color: #f0ebeb;
 }
 .Sidebar_Notification,
@@ -129,6 +134,11 @@ div a {
     color: #00aaff;
     border-radius: 5px;
     border: none;
+}
+.Sidebar_Create{
+    margin-right: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--Border-Lines);
 }
 /* Side Navbar END */
 

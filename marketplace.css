@@ -24,7 +24,10 @@ div a {
     border-bottom: 1px solid var(--Border-Lines);
 }
 .Logo {
-    margin: 0;
+    text-decoration: underline;
+    font-weight: 900;
+    margin-left: 80px;
+    color: #f0ebeb;
 }
 .Person_Icon,
 .Notification_Icon,
@@ -81,8 +84,11 @@ div a {
     font-size: 18px;
     padding: 8px;
 }
-.Communities{
-    color: #f0ebeb;
+.Communities h3,
+.Resources h3{
+    font-weight: 900;
+    font-size: 16px;
+    color:#f0ebeb
 }
 .Sidebar_Home,
 .Sidebar_profile,
@@ -111,7 +117,10 @@ div a {
 .Sidebar_Notification,
 .Sidebar_Inbox,
 .Sidebar_Buying,
-.Sidebar_Selling{
+.Sidebar_Selling,
+.Sidebar_About,
+.Sidebar_Question,
+.Sidebar_Settings{
     color: #f0ebeb;
     font-size: 18px;
     padding: 8px;
@@ -125,8 +134,14 @@ div a {
     color: #6EACF0;
     border-radius: 5px;
     border: none;
-    
 }
+.Sidebar_Create{
+    margin-right: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--Border-Lines);
+}
+
+
 /* Side Navbar END */
 
 /* Marketplaces START */
@@ -148,13 +163,14 @@ div a {
     border-radius: 10px;
 }
 .News_Post h2 {
+    font-weight: 900;
     color: #f0ebeb;
     font-size: 18px;
     margin-bottom: 10px;
 }
 .News_Post p {
     color: #a0a0a0;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 10px;
 }
 .News_Post a {
