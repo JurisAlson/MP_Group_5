@@ -113,10 +113,61 @@ div a {
     font-size: 16px;
     color: #606a6b;
 }
-.Sidebar_Create {
-    color: #fffcfc;
-}
-.Sidebar_Create a {
+.Sidebar_Notification,
+.Sidebar_Inbox,
+.Sidebar_Buying,
+.Sidebar_Selling{
+    padding-bottom: 20px;
+    color: #f0ebeb;
     font-size: 16px;
+    text-align: start;
+    position: relative;
+}
+
+.Sidebar_Create{
+  
+
+}
+.Sidebar_Create button{
+    padding: 10px;
+    background-color:#394D62;
+    color: #70AFF6;
+    border-radius: 10px;
+    border:1px solid var(--Border-Lines);
+
 }
 /* Side Navbar END */
+
+.Feed_Container {
+    margin-top: 40px;
+    margin-left: 360px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.News_Row {
+    display: flex;
+    width: 100%;
+}
+.News_Post {
+    background-color: #1A282D;
+    padding: 20px;
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.News_Post h2 {
+    color: #f0ebeb;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.News_Post p {
+    color: #a0a0a0;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.News_Post a {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}

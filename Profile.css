@@ -128,13 +128,12 @@ div a {
 .Label{
     color: #f0ebeb;
     margin-top: 120px; 
-    margin-left: 45%; 
-    width: 50%;
+    margin-left: 48%; 
+    width: 60%;
     transform: translateX(-50%); 
     border-bottom: 1px solid var(--Border-Lines);
 }
 .user{
-    
     font-size: 22px;
     display: flex;
     align-items: center;
@@ -180,8 +179,6 @@ div a {
     padding: 10px 10px 10px 10px;
     border-radius: 18px;
     margin-left: 10px;
-
-
 }
 
 .CreateAPost a {
@@ -211,11 +208,10 @@ div a {
 
 .Timeline_Item {
     margin-bottom: 20px;
-    width: 66%;  
-    background-color: #0B1416;
+    width: 66%;
+    border-radius: 20px;  
+    background-color:#1A282D;
     padding: 50px;
-    margin-right: 20px;
-    border-bottom: 1px solid #fffcfc;
 }
 
 .Timeline_Content {
@@ -245,7 +241,6 @@ div a {
     align-items: center;
 
 }
-
 /* Timeline END */
 
 
