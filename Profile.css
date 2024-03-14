@@ -137,26 +137,56 @@ div a {
     
     font-size: 22px;
     display: flex;
-    margin-left: 80px;
+    align-items: center;
+    margin-left: 50px;
 
 }
 
 .profilePic{
-    width: 40px;
+    width: 60px;
     padding: 25px;
 }
 
 .profileNav{
     display: flex;
     align-items: center;
-    margin-left: 80px;
+    margin-left: 70px;
 }
 
 .profileOption{
-    padding: 5px;
-    margin: 20px;
+    padding: 0px 25px 0px 25px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-weight: 900;
+    font-size: small;
+}
+
+.profileOption:hover{
+    
+    border: 1px;
+    border-radius: 20px;
+    background-color: #33464C;
+}
+
+.ProfilePost {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px 20px 80px;
+}
+
+.CreateAPost{
+    display: flex;
     border: 1px solid aliceblue;
-    border-radius: 30%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 18px;
+    margin-left: 10px;
+
+
+}
+
+.CreateAPost a {
+    
+    color: #fffcfc;
 }
 
 .Feed_Container{
@@ -173,7 +203,6 @@ div a {
 
 /* Timeline START */
 .Timeline {
-    margin-top: 40px;
     margin-left: 360px;
     margin-right: 220px;
     display: flex;
@@ -181,17 +210,40 @@ div a {
 }
 
 .Timeline_Item {
-    display: flex;
     margin-bottom: 20px;
-    width: 100%;
+    width: 66%;  
+    background-color: #0B1416;
+    padding: 50px;
+    margin-right: 20px;
+    border-bottom: 1px solid #fffcfc;
 }
 
 .Timeline_Content {
-    background-color: #02354d;
-    padding: 10px;
-    border-radius: 10px;
-    margin-right: 20px;
-    flex: 1;
+    color: aliceblue;
+    display: flex;
+    align-items: flex-start;
+}
+
+.Timeline_Content img{
+    width: 60px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.Timeline_Content h5 {
+    margin-left: 5px;
+    color: #606a6b;
+}
+
+.Timeline_Caption{
+    color: aliceblue;
+}
+
+.icon_buttons {
+    color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 /* Timeline END */
