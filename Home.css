@@ -10,7 +10,6 @@ div a {
     text-decoration: none;
 }
 
-
 /* Top Navbar START */
 .Top_Navbar {
     background-color: #0B1416;
@@ -112,12 +111,12 @@ div a {
 }
 .Sidebar_Store:hover,
 .Sidebar_profile:hover,
-.Sidebar_Home:hover {
+.Sidebar_Home:hover,
+.Sidebar_Create:hover {
     background-color: #393A3B;
     border-radius: 5px;
-    width: 160px;
+    width: 200px;
 }
-
 
 /* Side Navbar Community */
 .Communities h3,
@@ -134,11 +133,14 @@ div a {
     font-size: 16px;
 }
 .Sidebar_Comunities{
+    margin-right: 20px;
     border-bottom:1px solid var(--Border-Lines); 
 }
 .Sidebar_Comunities a{
     font-size:16px ;
 }
+/* Side Navbar Community END*/
+
 /* Side Navbar END */
 
 
