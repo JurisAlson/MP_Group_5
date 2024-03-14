@@ -9,6 +9,10 @@ body {
 div a {
     text-decoration: none;
 }
+img{
+    width: 60%;
+    border-radius: 2px;
+}
 
 
 /* Top Navbar START */
@@ -139,7 +143,7 @@ div a {
 /* Side Navbar END */
 
 .Feed_Container {
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 360px;
     display: flex;
     flex-wrap: wrap;
@@ -151,8 +155,8 @@ div a {
 .News_Post {
     background-color: #1A282D;
     padding: 20px;
-    width: 50%;
-    margin-bottom: 20px;
+    width: calc(40% - 40px); /* Adjusting width to accommodate for left and right margins */
+    margin: 0 20px 20px 0; /* Add margins to create space between posts */
     border-radius: 10px;
 }
 .News_Post h2 {
