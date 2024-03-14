@@ -47,25 +47,26 @@ div a {
     justify-content: center;
 }
 .Search_Container {
+    width: 84%;
     position: relative;
     font-size: 30px;
 }
 .Search_Icon {
     position: absolute;
-    left: 170px;
+    left: 20px;
     top: 50%;
     transform: translateY(-50%);
     color: #f0ebeb;
 }
 .Search_Input {
-    width: 700px;
-    margin-left: 150px;
+    width: 770px;
     background-color: #1A282D;
-    padding: 16px 60px;
+    padding: 12px 60px;
     border: none;
     border-radius: 30px;
     font-size: 16px;
 }
+
 /* Search Bar END */
 
 

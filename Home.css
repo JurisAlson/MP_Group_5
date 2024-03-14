@@ -46,23 +46,24 @@ div a {
     align-items: center;
     flex-grow: 1;
     justify-content: center;
+    
 }
 .Search_Container {
     position: relative;
     font-size: 30px;
+    width: 84%;
 }
 .Search_Icon {
     position: absolute;
-    left: 170px;
+    left: 20px;
     top: 50%;
     transform: translateY(-50%);
     color: #f0ebeb;
 }
 .Search_Input {
-    width: 700px;
-    margin-left: 150px;
+    width: 600px;
     background-color: #1A282D;
-    padding: 16px 60px;
+    padding: 12px 60px;
     border: none;
     border-radius: 30px;
     font-size: 16px;
