@@ -86,7 +86,12 @@ div a {
 .Message_Icon,
 .Sidebar_Home,
 .Sidebar_profile,
-.Sidebar_Store {
+.Sidebar_Comunities,
+.Sidebar_Store,
+.Sidebar_About,
+.Sidebar_Question,
+.Sidebar_Settings
+ {
     padding-bottom: 20px;
     color: #f0ebeb;
     font-size: 16px;
@@ -111,15 +116,23 @@ div a {
 
 
 /* Side Navbar Community */
-.Communities h3 {
+.Communities h3,
+.Resources h3 {
     font-size: 16px;
-    color: #606a6b;
+    color:#f0ebeb
 }
 .Sidebar_Create {
     color: #fffcfc;
+    padding-bottom: 20px;
 }
 .Sidebar_Create a {
     font-size: 16px;
+}
+.Sidebar_Comunities{
+    border-bottom:1px solid var(--Border-Lines); 
+}
+.Sidebar_Comunities a{
+    font-size:16px ;
 }
 /* Side Navbar END */
 
@@ -129,15 +142,17 @@ div a {
     font-size: 22px;
     color: #f0ebeb;
     margin-top: 120px; 
-    margin-left: 50%; 
+    margin-left: 52%; 
     width: 50%;
-    transform: translateX(-50%); 
+    transform: translateX(-50%);
+    border-bottom: 1px solid var(--Border-Lines); 
 }
 .Feed_Container{
     margin-top: 40px; 
-    margin-left: 360px;
+    margin-bottom: -60px; 
+    margin-left: 390px;
     flex: 0.5;
-    width: calc(30% - 360px);
+    width: calc(40% - 360px);
     min-width: fit-content;
     overflow-y: scroll;
     scrollbar-width: none;
@@ -145,7 +160,7 @@ div a {
 .News_Post {
     background-color: #1A282D;
     padding: 20px;
-    width: 50%;
+    width: 80%;
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -166,3 +181,37 @@ div a {
     font-size: 14px;
 }
 /* Feed END */
+
+
+/* RIGHT Side Navbar RIGHT */
+.Navbar_Right {
+    padding-top: 90px;
+    margin-top: 0px;
+    margin-left: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 360px;
+    height: 100vh;
+    background-color: #0B1416;
+    border-left: 1px solid var(--Border-Lines);
+    z-index: 999;
+}
+.widgets {
+    padding: 20px;
+}
+.widgets__input{
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+    color: #f0ebeb;
+    outline: none;
+    width: 100%;
+}
+.widgets__widgetContainer {
+    background-color: #1A282D;
+    padding: 20px;
+    border-radius: 15px;
+    color: #f0ebeb;
+}
+/* RIGHT Side Navbar END */

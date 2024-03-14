@@ -128,30 +128,27 @@ div a {
 .Label{
     color: #f0ebeb;
     margin-top: 120px; 
-    margin-left: 48%; 
-    width: 60%;
-    transform: translateX(-50%); 
+    margin-left: 63%; 
+    width: 100%;
+    transform: translateX(-40%); 
     border-bottom: 1px solid var(--Border-Lines);
 }
 .user{
     font-size: 22px;
     display: flex;
     align-items: center;
-    margin-left: 50px;
-
+    margin-left: 10px;
 }
-
 .profilePic{
     width: 60px;
     padding: 25px;
 }
-
 .profileNav{
     display: flex;
     align-items: center;
-    margin-left: 70px;
-}
+    margin-left: 10px;
 
+}
 .profileOption{
     padding: 0px 25px 0px 25px;
     margin-left: 20px;
@@ -159,14 +156,11 @@ div a {
     font-weight: 900;
     font-size: small;
 }
-
 .profileOption:hover{
-    
     border: 1px;
     border-radius: 20px;
     background-color: #33464C;
 }
-
 .ProfilePost {
     display: flex;
     align-items: center;
@@ -180,9 +174,7 @@ div a {
     border-radius: 18px;
     margin-left: 10px;
 }
-
 .CreateAPost a {
-    
     color: #fffcfc;
 }
 

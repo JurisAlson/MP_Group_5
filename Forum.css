@@ -10,6 +10,7 @@ div a {
     text-decoration: none;
 }
 
+
 /* Top Navbar START */
 .Top_Navbar {
     background-color: #0B1416;
@@ -24,7 +25,7 @@ div a {
     border-bottom: 1px solid var(--Border-Lines);
 }
 .Logo {
-    margin: 0;
+    
 }
 .Person_Icon,
 .Notification_Icon,
@@ -69,6 +70,7 @@ div a {
 /* Side Navbar START */
 .Side_Navbar {
     padding-top: 90px;
+    margin-top: -100px;
     margin-left: 100px;
     background-color: #0B1416;
     width: 240px;
@@ -81,6 +83,7 @@ div a {
     font-size: 18px;
     padding: 8px;
 }
+.Message_Icon,
 .Sidebar_Home,
 .Sidebar_profile,
 .Sidebar_Store {
@@ -117,15 +120,25 @@ div a {
     text-align: start;
     position: relative;
 }
+.Sidebar_Create button{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    background-color:#1A282D;
+    color: #00aaff;
+    border-radius: 5px;
+    border: none;
+}
 /* Side Navbar END */
 
 .Label{
+    text-decoration: underline;
     font-size: 22px;
     color: #f0ebeb;
     margin-top: 120px; 
-    margin-left: 50%; 
+    margin-left: 25%; 
     width: 50%;
-    transform: translateX(-50%); 
 }
 .Feed_Container {
     margin-top: 50px;
