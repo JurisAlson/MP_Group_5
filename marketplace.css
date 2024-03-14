@@ -9,11 +9,6 @@ body {
 div a {
     text-decoration: none;
 }
-img{
-    width: 60%;
-    border-radius: 2px;
-}
-
 
 /* Top Navbar START */
 .Top_Navbar {
@@ -86,6 +81,9 @@ img{
     font-size: 18px;
     padding: 8px;
 }
+.Communities{
+    color: #f0ebeb;
+}
 .Sidebar_Home,
 .Sidebar_profile,
 .Sidebar_Store {
@@ -110,40 +108,29 @@ img{
     border-radius: 5px;
     width: 160px;
 }
-
-
-/* Side Navbar Community */
-.Communities h3 {
-    font-size: 16px;
-    color: #606a6b;
-}
 .Sidebar_Notification,
 .Sidebar_Inbox,
 .Sidebar_Buying,
 .Sidebar_Selling{
-    padding-bottom: 20px;
     color: #f0ebeb;
-    font-size: 16px;
-    text-align: start;
-    position: relative;
-}
-
-.Sidebar_Create{
-  
-
+    font-size: 18px;
+    padding: 8px;
 }
 .Sidebar_Create button{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
     padding: 10px;
     background-color:#394D62;
-    color: #70AFF6;
-    border-radius: 10px;
-    border:1px solid var(--Border-Lines);
-
+    color: #6EACF0;
+    border-radius: 5px;
+    border: none;
 }
 /* Side Navbar END */
 
+/* Marketplaces START */
 .Feed_Container {
-    margin-top: 50px;
+    margin-top: 65px;
     margin-left: 360px;
     display: flex;
     flex-wrap: wrap;
@@ -155,8 +142,8 @@ img{
 .News_Post {
     background-color: #1A282D;
     padding: 20px;
-    width: calc(40% - 40px); /* Adjusting width to accommodate for left and right margins */
-    margin: 0 20px 20px 0; /* Add margins to create space between posts */
+    width: calc(40% - 40px); 
+    margin: 0 20px 20px 0; 
     border-radius: 10px;
 }
 .News_Post h2 {
@@ -175,3 +162,4 @@ img{
     font-weight: bold;
     font-size: 14px;
 }
+/* Marketplaces END */

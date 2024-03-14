@@ -10,7 +10,6 @@ div a {
     text-decoration: none;
 }
 
-
 /* Top Navbar START */
 .Top_Navbar {
     background-color: #0B1416;
@@ -107,3 +106,50 @@ div a {
     width: 160px;
 }
 
+.Communities{
+    color: #f0ebeb;
+}
+.Sidebar_Notification,
+.Sidebar_Inbox{
+    padding-bottom: 20px;
+    color: #f0ebeb;
+    font-size: 16px;
+    text-align: start;
+    position: relative;
+}
+/* Side Navbar END */
+
+
+.Feed_Container {
+    margin-top: 50px;
+    margin-left: 360px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.News_Row {
+    display: flex;
+    width: 100%;
+}
+.News_Post {
+    background-color: #1A282D;
+    padding: 20px;
+    width: calc(40% - 40px); 
+    margin: 0 20px 20px 0; 
+    border-radius: 10px;
+}
+.News_Post h2 {
+    color: #f0ebeb;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.News_Post p {
+    color: #a0a0a0;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.News_Post a {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}

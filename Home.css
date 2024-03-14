@@ -129,10 +129,9 @@ div a {
     font-size: 22px;
     color: #f0ebeb;
     margin-top: 120px; 
-    margin-left: 45%; 
+    margin-left: 50%; 
     width: 50%;
     transform: translateX(-50%); 
-    border-bottom: 1px solid var(--Border-Lines);
 }
 .Feed_Container{
     margin-top: 40px; 
