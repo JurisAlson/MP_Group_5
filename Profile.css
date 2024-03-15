@@ -190,52 +190,6 @@ div a {
 /* Feed END */
 
 
-/* Timeline START */
-.Timeline {
-    margin-left: 360px;
-    margin-right: 220px;
-    display: flex;
-    flex-direction: column;
-}
-
-.Timeline_Item {
-    margin-bottom: 20px;
-    width: 66%;
-    border-radius: 20px;  
-    background-color:#1A282D;
-    padding: 50px;
-}
-
-.Timeline_Content {
-    color: aliceblue;
-    display: flex;
-    align-items: flex-start;
-}
-
-.Timeline_Content img{
-    width: 60px;
-    border-radius: 30px;
-    margin-right: 10px;
-}
-
-.Timeline_Content h5 {
-    margin-left: 5px;
-    color: #606a6b;
-}
-
-.Timeline_Caption{
-    color: aliceblue;
-}
-
-.icon_buttons {
-    color: aliceblue;
-    justify-content: space-between;
-    align-items: center;
-
-}
-/* Timeline END */
-
-
 /* Side-Profile START */
 .Side_Profile {
     background-color: #1A282D;
@@ -274,17 +228,26 @@ div a {
     text-decoration: none;
     font-weight: bold;
 }
+/* Side-Profile END */
+
+
 /* Timeline START */
 .Timeline {
     margin-left: 360px;
-    margin-right: 220px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.column-content{
     display: flex;
     flex-direction: column;
+    max-width: 60%;
 }
 
 .Timeline_Item {
     margin-bottom: 20px;
-    width: 66%;
+    width: 80%;
     border-radius: 20px;  
     background-color:#1A282D;
     padding: 50px;
@@ -321,13 +284,6 @@ div a {
 
 
 /* Side-Profile START */
-.right-sidebar {
-    padding-top: -110px;
-    margin-top: -100px;
-    margin-left: 1900px;
-    width: 240px;
-    height: 100vh;
-}
 
 .container {
     display: flex;
