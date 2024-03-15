@@ -387,7 +387,7 @@ div a {
     margin-bottom: 20px;
 }
 
-.sidebar-title h4 {
+.sidebar-title h2 {
     margin: 0;
 }
 
@@ -430,7 +430,8 @@ div a {
 }
 
 .share-button,
-.profile-actions button {
+.edit-profile .edit,
+.add button {
     padding: 8px 16px;
     border: none;
     border-radius: 50px;
@@ -441,8 +442,8 @@ div a {
 }
 
 .share-button:hover,
-.profile-actions button:hover {
-    border: 1px;
+.edit-profile .edit:hover,
+.add button:hover {
     border-radius: 20px;
     background-color: #33464C;
 }
@@ -460,25 +461,40 @@ div a {
     border-radius: 4px;
 }
 
-.profile-actions {
+.edit-profile .edit,
+.add {
     margin-top: 20px;
 }
 
-.profile-actions button {
+.edit-profile .edit,
+.add button {
     padding: 10px 20px;
     margin-right: 30px;
     border: none;
-    border-radius: 4px;
+    border-radius: 50px;
     background-color: #01796f;
     color: white;
     cursor: pointer;
 }
 
-.profile-actions button:last-child {
+.edit-profile .edit:last-child,
+.add button:last-child {
     margin-right: 0;
 }
 
-.profile-actions button:hover {
+.edit-profile .edit:hover,
+.add button:hover {
     background-color: #33464C;
 }
+
+.edit-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.editpic{
+    width: 60px;
+}
+
 /* Side-Profile End */
