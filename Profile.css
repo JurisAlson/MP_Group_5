@@ -321,46 +321,14 @@ div a {
 
 
 /* Side-Profile START */
-.Side_Profile {
-    background-color: #1A282D;
-    padding: 20px;
-    margin-left: 1100px;
-    border-radius: 10px;
+.right-sidebar {
+    padding-top: -110px;
+    margin-top: -100px;
+    margin-left: 1900px;
+    width: 240px;
+    height: 100vh;
 }
 
-.Profile_Info {
-    display: flex;
-    align-items: center;
-}
-
-.Profile_Pic img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-}
-
-.Profile_Description {
-    margin-left: 15px;
-}
-
-.Profile_Description h3 {
-    margin: 0;
-    color: #f0ebeb;
-}
-
-.Profile_Description p {
-    margin: 5px 0;
-    color: #f0ebeb;
-}
-
-.Profile_Description a {
-    color: #f0ebeb;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-
-/* Side-Profile START */
 .container {
     display: flex;
     justify-content: flex-end;
@@ -491,10 +459,32 @@ div a {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.edit-profile .edit{
+    max-width: 30%;
+}
+
+.desc h4,
+.desc p{
+    margin: 0;
+}
+
+.desc p{
+    font-size: 14px;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 5px;
 }
 
 .editpic{
     width: 60px;
+    border-radius: 50%;
 }
 
 /* Side-Profile End */
