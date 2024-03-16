@@ -160,6 +160,7 @@ div a {
     border: 1px;
     border-radius: 20px;
     background-color: #33464C;
+    cursor:pointer;
 }
 .ProfilePost {
     display: flex;

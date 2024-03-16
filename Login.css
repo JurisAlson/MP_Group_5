@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     padding: 0;
@@ -61,7 +63,29 @@ form .txt_field{
     pointer-events: none;
     transition: .5s;
 }
+
+.txt_field span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: aliceblue;
+    transition: .5s;
+  }
+  .txt_field input:focus ~ label,
+  .txt_field input:valid ~ label{
+    top: -5px;
+    color: aliceblue;
+  }
+  .txt_field input:focus ~ span::before,
+  .txt_field input:valid ~ span::before{
+    width: 100%;
+  }
 /* Login Form Labels END */
+
+
 
 a{
     
@@ -94,4 +118,25 @@ button {
   .signup a{
     color:aliceblue;
     text-decoration: none;
+  }
+
+  .signup_link{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+  }
+  .signup_link a{
+    color:aliceblue;
+    text-decoration: none;
+  }
+  .signup_link a:hover{
+    text-decoration: underline;
+  }
+
+  form i {
+    margin-left: -30px;
+    cursor: pointer;
+    color:aliceblue
+    ;
   }
