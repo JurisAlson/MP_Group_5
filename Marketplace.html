@@ -75,10 +75,16 @@
         </div>
 
         <div class="Sidebar_Create">
-            <button>
+            <button id="show-create-post-form">
                 <ion-icon name="add-outline"></ion-icon>
                 Create new listing
             </button>
+            <form id="create-post-form" enctype="multipart/form-data" style="display: none;">
+                <input type="text" id="post-title" placeholder="Title" required>
+                <textarea id="post-description" placeholder="Description" required></textarea>
+                <input type="file" id="post-image" accept="image/*" required>
+                <button type="submit">Submit</button>
+            </form>
         </div>
         <!--Side Navbar Communities END -->
 
@@ -142,6 +148,18 @@
          <!--Icon Script -->
          <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
          <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+         <script>
+            document.getElementById('show-create-post-form').addEventListener('click', function() {
+            var createPostForm = document.getElementById('create-post-form');
+            if (createPostForm.style.display === 'none') {
+                createPostForm.style.display = 'block';
+            } else {
+                createPostForm.style.display = 'none';
+            }
+        });
+         </script>
+
     
 </body>
 </html>

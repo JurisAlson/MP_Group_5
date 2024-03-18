@@ -66,7 +66,6 @@ div a {
     border-radius: 30px;
     font-size: 16px;
 }
-
 /* Search Bar END */
 
 
@@ -179,5 +178,8 @@ div a {
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
+}
+.News_Post:hover{
+    background-color:#393A3B ;
 }
 /* Marketplaces END */

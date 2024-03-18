@@ -170,6 +170,7 @@ div a {
     width: 80%;
     margin-bottom: 20px;
     border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
 }
 .News_Post h2 {
     color: #f0ebeb;
@@ -186,6 +187,10 @@ div a {
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
+}
+.News_Post:hover{
+    transform: translateY(-3px); 
+    background-color:#393A3B;
 }
 /* Feed END */
 
