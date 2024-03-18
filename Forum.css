@@ -186,3 +186,14 @@ div a {
     font-weight: bold;
     font-size: 14px;
 }
+.extended-content {
+    display: none;
+}
+
+.extended-content.show {
+    display: block;
+}
+
+.comment-form {
+    margin-top: 300px;
+}

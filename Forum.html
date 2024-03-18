@@ -45,7 +45,7 @@
         </div>
 
         <div class="Sidebar_Store">
-            <ion-icon name="storefront-outline"style="font-size: 26px;"></ion-icon>
+            <ion-icon name="storefront-outline" style="font-size: 26px;"></ion-icon>
             <a href="Marketplace.html">Market Place</a>
         </div>
 
@@ -55,18 +55,18 @@
         </div>
 
         <div class="Sidebar_Notification">
-            <ion-icon name="notifications-outline"style="font-size: 26px"></ion-icon>
+            <ion-icon name="notifications-outline" style="font-size: 26px;"></ion-icon>
             <a href="#">Notification</a>
         </div>
 
         <div class="Sidebar_Inbox">
-            <ion-icon name="file-tray-full-outline"style="font-size: 26px"></ion-icon>
+            <ion-icon name="file-tray-full-outline" style="font-size: 26px;"></ion-icon>
             <a href="#">Inbox</a>
         </div>
 
         <div class="Sidebar_Create">
             <button>
-                <ion-icon name="add-outline" style="font-size: px;"></ion-icon>
+                <ion-icon name="add-outline" style="font-size: 16px;"></ion-icon>
                 Create discussion
             </button>
         </div>
@@ -92,7 +92,7 @@
         
     </div>
     <!--Side Navbar END -->
-
+    
     <div class="Label">
         <h4>Today's Discussions</h4>
     </div>
@@ -104,29 +104,56 @@
                 <h2>Doobie 100 grams</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <a href="#">Read more</a>
+                <div class="extended-content">
+                    <form class="comment-form">
+                        <textarea placeholder="Join the discussion.."></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
             </div>
             <div class="News_Post">
                 <h2>BHO Cannabis<i class="fas fa-hourglass-start"></i></h2>
                 <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <a href="#">Read More</a>
+                <div class="extended-content">
+                    <form class="comment-form">
+                        <textarea placeholder="Join the discussion.."></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
         <div class="News_Row">
-            <div class="News_Post">
-                <!-- Post 3 content -->
-            </div>
+            <div class="News_Post"></div>
             <div class="News_Post">
                 <h2>Kush FG</h2>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <a href="#">Read More</a>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a href="#">Read More</a>
+                <div class="extended-content">
+                    <form class="comment-form">
+                        <textarea placeholder="Join the discussion.."></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
     <!--Forums END -->
     
-         <!--Icon Script -->
-         <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-         <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    
+    <!--Icon Script -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        // Add event listener to "Read more" links
+        const readMoreLinks = document.querySelectorAll('a[href="#"]');
+        readMoreLinks.forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const extendedContent = this.parentNode.querySelector('.extended-content');
+                extendedContent.classList.toggle('show');
+            });
+        });
+    </script>
 </body>
 </html>
