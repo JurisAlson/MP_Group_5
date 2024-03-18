@@ -109,7 +109,15 @@ div a {
 }
 .Sidebar_Store:hover,
 .Sidebar_profile:hover,
-.Sidebar_Home:hover {
+.Sidebar_Home:hover,
+.Sidebar_Notification:hover,
+.Sidebar_Inbox:hover,
+.Sidebar_Buying:hover,
+.Sidebar_Selling:hover,
+.Sidebar_About:hover,
+.Sidebar_Question:hover,
+.Sidebar_Settings:hover
+{
     background-color: #393A3B;
     border-radius: 5px;
     width: 160px;

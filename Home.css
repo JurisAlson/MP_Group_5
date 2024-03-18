@@ -112,7 +112,11 @@ div a {
 .Sidebar_Store:hover,
 .Sidebar_profile:hover,
 .Sidebar_Home:hover,
-.Sidebar_Create:hover {
+.Sidebar_Create:hover,
+.Sidebar_Comunities:hover,
+.Sidebar_About:hover,
+.Sidebar_Question:hover,
+.Sidebar_Settings:hover {
     background-color: #393A3B;
     border-radius: 5px;
     width: 200px;
