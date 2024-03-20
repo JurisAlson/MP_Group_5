@@ -107,6 +107,7 @@ div a {
     background-color: #393A3B;
     border-radius: 5px;
     width: 160px;
+    cursor: pointer;
 }
 
 
@@ -118,6 +119,14 @@ div a {
 .Sidebar_Create {
     color: #fffcfc;
 }
+
+.Sidebar_Create:hover{
+    background-color: #393A3B;
+    border-radius: 5px;
+    width: 170px;
+    cursor: pointer;
+}
+
 .Sidebar_Create a {
     font-size: 16px;
 }
