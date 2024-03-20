@@ -200,5 +200,31 @@ div a {
 }
 
 .comment-form {
-    margin-top: 300px;
+    margin-top: 150px;
+    padding: 20px;
+    background-color: #33464C;
+    border: 2px solid #0B1416;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.comment-form textarea {
+    width: 100%; 
+    margin-bottom: 10px;
+    padding: 10px; 
+    border: 1px solid #ccc;
+}
+
+.comment-form button {
+    padding: 10px 20px;
+    margin-right: 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: #01796f;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comment-form button:hover {
+    background-color: #1A282D;
 }
