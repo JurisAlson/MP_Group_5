@@ -124,6 +124,7 @@ div a {
     background-color: #393A3B;
     border-radius: 5px;
     width: 160px;
+    cursor: pointer;
 }
 .Communities h3,
 .Resources h3{

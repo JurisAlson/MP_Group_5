@@ -100,6 +100,7 @@ div a {
     font-size: 16px;
     text-align: start;
     position: relative;
+    cursor: pointer;
 }
 .Sidebar_Store::after {
     content: "";
@@ -120,6 +121,7 @@ div a {
     background-color: #393A3B;
     border-radius: 5px;
     width: 200px;
+    cursor: pointer;
 }
 
 /* Side Navbar Community */
