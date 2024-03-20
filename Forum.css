@@ -212,14 +212,23 @@ div a {
     background-color: #33464C;
     border: 2px solid #0B1416;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    
 }
 
 .comment-form textarea {
     width: 100%; 
     margin-bottom: 10px;
-    padding: 10px; 
-    border: 1px solid #ccc;
+    border: #33464C;
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #33464C;
+    color: white;
+    overflow: hidden;
 }
+
+textarea::placeholder {
+    color: white;
+  }
 
 .comment-form button {
     padding: 10px 20px;
