@@ -244,3 +244,45 @@ textarea::placeholder {
 .comment-form button:hover {
     background-color: #1A282D;
 }
+@media screen and (max-width: 414px) and (max-height:896px) {
+
+    .Top_Navbar{
+        width: 100%;
+    }
+    .Logo {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size:small;
+    }
+    .Search_Bar {
+        display: contents;
+        padding: 10px 60px;
+    }
+    .Search_Container {
+        font-size:14px;
+    }
+    .Search_Input {
+        width: 50px;
+        font-size: 14px;
+    }
+    .Side_Navbar {
+        display: none;
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+    .Side_Navbar.active {
+        display: block;
+    }
+    .Notification_Profile {
+        display: flex;
+        transform: scale(.5);
+        margin-right: 50px;
+    }
+    .Label{
+        margin-left: 8%; 
+    }
+    .Feed_Container{
+        margin-left: 8%; 
+        width: 92%;
+    }
+}

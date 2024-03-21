@@ -148,6 +148,13 @@
 
     <script>
         // Add event listener to "Read more" links
+        const toggleButton = document.getElementsByClassName('Logo')[0]
+        const sideBar = document.getElementsByClassName('Side_Navbar')[0]
+
+        toggleButton.addEventListener('click', () => {
+            sideBar.classList.toggle('active')
+        })
+        
         const readMoreLinks = document.querySelectorAll('a[href="#"]');
         readMoreLinks.forEach(link => {
             link.addEventListener('click', function(e) {
