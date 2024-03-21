@@ -109,11 +109,13 @@ div a {
 }
 /* Side Navbar Community */
 .Communities h3 {
+    font-weight: 900;
     font-size: 16px;
-    color: #606a6b;
+    color:#f0ebeb
 }
 .Sidebar_Create {
     color: #fffcfc;
+    height: 50px;
 }
 .Sidebar_Create:hover{
     background-color: #393A3B;
