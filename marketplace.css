@@ -247,6 +247,12 @@ div a {
     font-weight: bold;
     font-size: 14px;
 }
+.News_Post img {
+    width: 100%;
+    max-width: 400px; /* Adjust this value to set the maximum width for the images */
+    height: auto; /* This will maintain the aspect ratio of the images */
+    object-fit: cover; /* This will ensure the image fills the container while maintaining its aspect ratio */
+}
 .News_Post:hover{
     background-color:#393A3B ;
 }
