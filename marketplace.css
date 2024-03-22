@@ -76,9 +76,11 @@ div a {
     margin-left: 100px;
     background-color: #0B1416;
     width: 240px;
-    height: 100vh;
+    max-height: 100vh;
     position: fixed;
     border-right: 1px solid var(--Border-Lines);
+    overflow-y: auto;
+    
 }
 .Side_Navbar a {
     color: #f0ebeb;
@@ -171,7 +173,7 @@ div a {
     width: 200px;
 }
 .Sidebar_Create input[type=text]::placeholder{
-   color: #f0ebeb;
+   color: #a0a0a0;
 }
 .Sidebar_Create textarea{
     background-color: #1A282D;
@@ -189,7 +191,7 @@ div a {
 }
 
 .Sidebar_Create textarea::placeholder{
-    color:#f0ebeb;
+    color:#a0a0a0;
 }
 
 .Sidebar_Create input[type=file]::file-selector-button {
