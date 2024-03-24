@@ -1,0 +1,18 @@
+{
+  "test": {
+    "username": "test",
+    "following": []
+  },
+  "test2": {
+    "username": "test2",
+    "following": []
+  },
+  "nick": {
+    "username": "nick",
+    "following": []
+  },
+  "testt": {
+    "username": "testt",
+    "following": []
+  }
+}

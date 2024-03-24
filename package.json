@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "init-api": "cd ./Api && npm install",
+    "start-api": "cd ./Api && npm run dev",
+    "init-ui": "cd  && npm install",
+    "start-ui": "cd  && npm run dev",
+    "dev": "live-server . --proxy=/api:http://localhost:3000/api"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "serverless-http": "^3.2.0"
+ }
+}
