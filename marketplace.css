@@ -20,14 +20,13 @@ div a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
     border-bottom: 1px solid var(--Border-Lines);
 }
 .Logo {
-    text-decoration: underline;
-    font-weight: 900;
-    margin-left: 80px;
-    color: #f0ebeb;
+    width: 8%;
+    height: 10%;
+    margin-left: 100px;
+
 }
 .Person_Icon,
 .Notification_Icon,
@@ -171,9 +170,11 @@ div a {
     font-size: 16px;
     padding: 10px;
     width: 200px;
+
 }
 .Sidebar_Create input[type=text]::placeholder{
-   color: #a0a0a0;
+   color: #a0a0a0;    
+   scrollbar-width: none;
 }
 .Sidebar_Create textarea{
     background-color: #1A282D;

@@ -21,14 +21,13 @@ div a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
     border-bottom: 1px solid var(--Border-Lines);
 }
 .Logo {
-    text-decoration: underline;
-    font-weight: 900;
-    margin-left: 80px;
-    color: #f0ebeb;
+    width: 8%;
+    height: 10%;
+    margin-left: 100px;
+
 }
 .Person_Icon,
 .Notification_Icon,
@@ -158,6 +157,7 @@ div a {
 }
 /* Side Navbar END */
 
+/* Open Forum START */
 .Label{
     text-decoration: underline;
     font-size: 22px;
@@ -202,49 +202,51 @@ div a {
 .extended-content {
     display: none;
 }
-
 .extended-content.show {
     display: block;
 }
-
 .comment-form {
     margin-top: 150px;
     padding: 20px;
-    background-color: #33464C;
-    border: 2px solid #0B1416;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #1A282D;
+    border-radius: 8px;
+    border: 2px solid var(--Border-Lines);
     
 }
 
 .comment-form textarea {
     width: 100%; 
     margin-bottom: 10px;
-    border: #33464C;
     resize: none;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #33464C;
-    color: white;
+    background-color: #1A282D;
+    border-color: #0B1416;
+    border-radius: 10px;
+    color:#a0a0a0 ;
     overflow: hidden;
+    border: none;
 }
 
 textarea::placeholder {
     color: white;
-  }
+}
 
 .comment-form button {
+    width: 100px;
     padding: 10px 20px;
     margin-right: 30px;
     border: none;
     border-radius: 50px;
-    background-color: #01796f;
-    color: white;
+    background-color:#00aaff;;
+    color:#f0ebeb;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .comment-form button:hover {
-    background-color: #1A282D;
+    background-color: #393A3B;
 }
+/* Open Forum END */
 @media screen and (max-width: 414px) and (max-height:896px) {
 
     .Top_Navbar{
