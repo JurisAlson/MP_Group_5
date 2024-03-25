@@ -123,6 +123,7 @@ div a {
     background-color: #393A3B;
     border-radius: 5px;
     width: 160px;
+    cursor: pointer;
 }
 .Sidebar_Notification,
 .Sidebar_Inbox,
