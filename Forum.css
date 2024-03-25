@@ -1,4 +1,4 @@
-body {
+    body {
     margin: 0;
     padding: 0;
     background-color: #0B1416;
@@ -78,7 +78,7 @@ div a {
 /* Side Navbar START */
 .Side_Navbar {
     padding-top: 90px;
-    margin-top: -100px;
+    margin-top: -70px;
     margin-left: 100px;
     background-color: #0B1416;
     width: 240px;
@@ -162,7 +162,7 @@ div a {
     text-decoration: underline;
     font-size: 22px;
     color: #f0ebeb;
-    margin-top: 120px; 
+    margin-top: 150px; 
     margin-left: 25%; 
     width: 50%;
 }

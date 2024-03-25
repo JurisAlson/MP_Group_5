@@ -71,11 +71,11 @@ div a {
 
 /* Side Navbar START */
 .Side_Navbar {
-    padding-top: 90px;
     margin-left: 100px;
+    margin-top: 120px;
     background-color: #0B1416;
     width: 240px;
-    max-height: 100vh;
+    height: 100vh;
     position: fixed;
     border-right: 1px solid var(--Border-Lines);
     overflow-y: auto;
@@ -215,7 +215,8 @@ div a {
 
 /* Marketplaces START */
 .Feed_Container {
-    margin-top: 65px;
+
+    margin-top: 150px;
     margin-left: 360px;
     display: flex;
     flex-wrap: wrap;

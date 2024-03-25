@@ -68,7 +68,7 @@ div a {
 /* Side Navbar START */
 .Side_Navbar {
     padding-top: 90px;
-    margin-top: -100px;
+    margin-top: -70px;
     margin-left: 100px;
     background-color: #0B1416;
     width: 240px;
@@ -84,12 +84,18 @@ div a {
 .Message_Icon,
 .Sidebar_Home,
 .Sidebar_profile,
-.Sidebar_Store {
+.Sidebar_Comunities,
+.Sidebar_Store,
+.Sidebar_About,
+.Sidebar_Question,
+.Sidebar_Settings
+{
     padding-bottom: 20px;
     color: #f0ebeb;
     font-size: 16px;
     text-align: start;
     position: relative;
+    cursor: pointer;
 }
 .Sidebar_Store::after {
     content: "";
@@ -101,32 +107,40 @@ div a {
 }
 .Sidebar_Store:hover,
 .Sidebar_profile:hover,
-.Sidebar_Home:hover {
+.Sidebar_Home:hover,
+.Sidebar_Create:hover,
+.Sidebar_Comunities:hover,
+.Sidebar_About:hover,
+.Sidebar_Question:hover,
+.Sidebar_Settings:hover {
     background-color: #393A3B;
     border-radius: 5px;
-    width: 160px;
+    width: 200px;
     cursor: pointer;
 }
+
 /* Side Navbar Community */
-.Communities h3 {
+.Communities h3,
+.Resources h3 {
     font-weight: 900;
     font-size: 16px;
     color:#f0ebeb
 }
 .Sidebar_Create {
     color: #fffcfc;
-    height: 50px;
-}
-.Sidebar_Create:hover{
-    background-color: #393A3B;
-    border-radius: 5px;
-    width: 170px;
-    cursor: pointer;
+    padding-bottom: 20px;
 }
 .Sidebar_Create a {
     font-size: 16px;
 }
-/* Side Navbar END */
+.Sidebar_Comunities{
+    margin-right: 20px;
+    border-bottom:1px solid var(--Border-Lines); 
+}
+.Sidebar_Comunities a{
+    font-size:16px ;
+}
+/* Side Navbar Community END*/
 /* Feed START */
 .Label{
     color: #f0ebeb;
@@ -441,6 +455,49 @@ div a {
         width: 100%;
     }
     .Navbar_Right{
+        display: none;
+    }
+    .user{
+        font-size: 40px;
+    }
+    .profilePic{
+        width: 70px;
+        height: 70px;
+    }
+    .profileNav{
+        margin-left: 0px;
+    }
+    .profileOption{
+        margin-left: 0px;
+        margin-bottom: 5px;
+        font-weight: 900;
+        font-size:medium;
+    }
+    .profileOption:hover{
+        border: 1px;
+        border-radius: 20px;
+        background-color: #33464C;
+        cursor:pointer;
+    }
+    .ProfilePost {
+        display: flex;
+        align-items: center;
+        margin: 10px 10px 20px 80px;
+    }
+    .CreateAPost{
+        display: flex;
+        border: 1px solid #f0ebeb;
+        padding: 10px 10px 10px 10px;
+        border-radius: 18px;
+        margin-left: 10px;
+        font-weight: 700;
+        font-size:x-small;
+        display: inline;
+    }
+    .CreateAPost a {
+        color: #fffcfc;
+    }
+    .profile-sidebar {
         display: none;
     }
 }
