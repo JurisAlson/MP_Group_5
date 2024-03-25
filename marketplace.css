@@ -23,7 +23,7 @@ div a {
     border-bottom: 1px solid var(--Border-Lines);
 }
 .Logo {
-    width: 8%;
+    width: 30%;
     height: 10%;
     margin-left: 100px;
 
@@ -58,7 +58,7 @@ div a {
     color: #f0ebeb;
 }
 .Search_Input {
-    width: 770px;
+    width: 600px;
     background-color: #1A282D;
     padding: 12px 60px;
     border: none;
