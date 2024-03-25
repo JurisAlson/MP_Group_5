@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forum</title>
     <link rel="stylesheet" href="Forum.css">
+    <script src="forum.js" defer></script>
 </head>
 <body>
     <!--Top Navbar START -->
@@ -67,10 +68,15 @@
         </div>
 
         <div class="Sidebar_Create">
-            <button>
+            <button id="show-create-discussion-form">
                 <ion-icon name="add-outline" style="font-size: 16px;"></ion-icon>
                 Create discussion
             </button>
+            <form id="create-discussion-form" enctype="multipart/form-data" style="display: none;">
+                <input type="text" id="discussionTitle" placeholder="Title" required>
+                <textarea id="discussionContent" placeholder="Description" required></textarea>
+                <button id="publish-button" type="submit">Publish</button>
+            </form>
         </div>
 
         <div class="Resources">
@@ -101,31 +107,30 @@
 
     <!--Forums START -->
     <div class="Feed_Container">
-        <div class="News_Row">
-            <div class="News_Post">
-                <h2>V8 F1 Engine</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="#" class="read-more">Read more</a>
-                <div class="extended-content">
-                    <form class="comment-form">
-                        <textarea placeholder="Join the discussion.."></textarea>
-                        <button type="submit">Comment</button> <button type="submit">Cancel</button>
-                    </form>
-                </div>
+        <!-- <div class="News_Post">
+            <h2>V8 F1 Engine</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+            <a href="#" class="read-more">Read more</a>
+            <div class="extended-content">
+                <form class="comment-form">
+                    <textarea placeholder="Join the discussion.."></textarea>
+                    <button type="submit">Comment</button> <button type="submit">Cancel</button>
+                </form>
             </div>
         </div>
-            <div class="News_Post">
-                <h2>Toyota<i class="fas fa-hourglass-start"></i></h2>
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <a href="#" class="read-more">Read more</a>
-                <div class="extended-content">
-                    <form class="comment-form">
-                        <textarea placeholder="Join the discussion.."></textarea>
-                        <button type="submit">Comment</button> <button type="submit">Cancel</button>
-                    </form>
-                </div>
+        <div class="News_Post">
+            <h2>Toyota<i class="fas fa-hourglass-start"></i></h2>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#" class="read-more">Read more</a>
+            <div class="extended-content">
+                <form class="comment-form">
+                    <textarea placeholder="Join the discussion.."></textarea>
+                    <button type="submit">Comment</button> <button type="submit">Cancel</button>
+                </form>
             </div>
-        </div>
+        </div> -->
     </div>
     <!--Forums END -->
     
@@ -134,7 +139,7 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 
-    <script>
+    <!-- <script>
          document.addEventListener('DOMContentLoaded', function() {
         const readMoreLinks = document.querySelectorAll('a.read-more');
     
@@ -154,7 +159,7 @@
             });
         });
     });
-    </script>
+    </script> -->
 
    
 </body>
