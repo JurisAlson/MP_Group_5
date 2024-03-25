@@ -35,6 +35,10 @@ div a {
     color: #f0ebeb;
     font-size: 40px;
 }
+.Person_Icon:hover{
+    background-color: #393A3B;
+    border-radius: 10px;
+}
 /* Top Navbar END */
 
 
