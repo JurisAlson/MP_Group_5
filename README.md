@@ -1,6 +1,6 @@
-#Reflection
+# Reflection
 
-##ARCHITECTURE OF PROJECT
+## ARCHITECTURE OF PROJECT
 
 The architecture of our project, Revvup Market, is built upon a foundation of collaborative effort and expertise 
 from our team members. Led by Juris Alson, our group leader, we have crafted a dynamic and visually appealing platform
@@ -21,7 +21,7 @@ ensuring that it meets both aesthetic and functional requirements.
 Together, our team successfully launched Revvup Market, a platform that combines sleek design, seamless functionality, and
 engaging user experience to meet the needs of our audience.
 
-##Configuration Steps:
+## Configuration Steps:
 
 Initialization:
 Begin by launching VS Code and initializing a Git repository for your project. Open the integrated terminal within VS Code and
