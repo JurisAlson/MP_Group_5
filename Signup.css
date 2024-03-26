@@ -156,3 +156,8 @@ form i {
   cursor: pointer;
   color:aliceblue;
 }
+@media screen and (max-width: 414px) and (max-height:896px) {
+  .center{
+    width: 375px;
+}
+}

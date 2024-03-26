@@ -1,5 +1,11 @@
-// localStorage.clear();
 
+const toggleButton = document.getElementsByClassName('Logo')[0]
+const sideBar = document.getElementsByClassName('Side_Navbar')[0]
+
+toggleButton.addEventListener('click', () => {
+    sideBar.classList.toggle('active')
+})
+// localStorage.clear();
 class Discussion {
     static idCounter = 1;
   

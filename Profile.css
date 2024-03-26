@@ -183,7 +183,6 @@ div a {
     margin-bottom: 5px;
     font-weight: 900;
     font-size: small;
-    position: relative; 
 }
 
 .profileOption:hover::after {
@@ -424,11 +423,13 @@ div a {
 @media screen and (max-width: 414px) and (max-height:896px) {
     .Top_Navbar{
         width: 100%;
+        padding: 20px;
     }
     .Logo {
-        margin-left: 10px;
-        margin-right: 10px;
-        font-size:small;
+        margin-left: 0px;
+        margin-right: 5px;
+        width: 80px;
+        height: 60px;
     }
     .Search_Bar {
         display: contents;
@@ -452,35 +453,28 @@ div a {
     .Notification_Profile {
         display: flex;
         transform: scale(.5);
+        margin-right: 50px;
     }
     .Label{
         margin-left:0%;
         padding-left: 8%;
-        width: 100%;
-    }
-    .Feed_Container{
-        margin-top: 120px;
-        margin-left: 8%;
-        width: 100%;
+        width: 92%;
+        font-size: 10px;
     }
     .Navbar_Right{
         display: none;
     }
-    .user{
-        font-size: 40px;
-    }
+    
     .profilePic{
-        width: 70px;
-        height: 70px;
+        width:50px;
+        height: 50px;
     }
     .profileNav{
-        margin-left: 0px;
+        font-size: 1em;
     }
     .profileOption{
-        margin-left: 0px;
+        margin-left: -10px;
         margin-bottom: 5px;
-        font-weight: 900;
-        font-size:medium;
     }
     .profileOption:hover{
         border: 1px;
@@ -491,8 +485,9 @@ div a {
     .ProfilePost {
         display: flex;
         align-items: center;
-        margin: 10px 10px 20px 80px;
+        margin: 10px 10px 20px 10px;
     }
+    .downvote-option
     .CreateAPost{
         display: flex;
         border: 1px solid #f0ebeb;
@@ -509,4 +504,24 @@ div a {
     .profile-sidebar {
         display: none;
     }
+    .Timeline {
+    margin: 10px 0 20px 10px; 
+    width: 92%;
+    }
+    .Timeline_Item {
+        width: 127%;
+    }
+    .Timeline_Content{
+        flex-direction: column;
+    }
+    .Timeline_Content h5{
+        margin-top: -10px;
+    }
+    .icon_buttons.active {
+        display: none;
+    }
+    .hidden-option {
+        display: none;
+    }
+
 }

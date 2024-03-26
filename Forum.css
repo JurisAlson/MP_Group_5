@@ -307,11 +307,13 @@ textarea::placeholder {
 
     .Top_Navbar{
         width: 100%;
+        padding: 20px;
     }
     .Logo {
-        margin-left: 10px;
-        margin-right: 10px;
-        font-size:small;
+        margin-left: 0px;
+        margin-right: 5px;
+        width: 80px;
+        height: 60px;
     }
     .Search_Bar {
         display: contents;
@@ -342,6 +344,10 @@ textarea::placeholder {
     }
     .Feed_Container{
         margin-left: 8%; 
-        width: 92%;
+        width: 90%;
+    }
+    .News_Post {
+        padding: 20px;
+        width: 90%; 
     }
 }
