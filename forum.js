@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
             </ul>
             <div class="comment-form">
                 <textarea placeholder="Join the discussion.."></textarea>
-                <button class="comment-btn">Comment</button> <button>Cancel</button>
+                <button class="comment-btn">Comment</button> <button class="Cancel-btn">Cancel</button>
             </div>
             </div>
           `;
