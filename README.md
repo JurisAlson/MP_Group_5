@@ -57,3 +57,11 @@ Pushing Changes:
 Push your committed changes to the remote repository on GitHub using the Push functionality within the Source
 Control view. This action synchronizes your local changes with the remote repository, making them accessible
 to collaborators and ensuring version control
+
+## Running the project
+
+How to run project 
+
+When running a project in VScode is to navigate to File > Open Folder( choose if cloning or select the directory containing your project files. After go to View > Terminal to create a panel at the bottom of VS Code. This creates a terminal panel at the bottom of VS Code and run the program.
+
+When the program is working you must log in first and if you dont have have account, click the sign up button and it will bring you to the sign up page. You can see Username and Password after filling up it will back to the login page. After logging in you'll see the Home page and in the left sides the the Home, Profile, Market Place, Communitie that includes Notification and Inbox also Resources Buttons. In profile Section you can see the the profile of the user and in the Market Place you can create new list by clicking the (+Create new listing) it contain Title and Description and also upload the picture of your product.
