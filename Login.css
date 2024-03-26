@@ -20,7 +20,15 @@ body {
     box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.05);
 }
 /* Login Form END */
-
+.Logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .center h1{
     color:aliceblue ;
     text-align: center;

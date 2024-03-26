@@ -6,13 +6,15 @@ body {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 div a {
     text-decoration: none;
 }
-/* Top Navbar START */
+
+/* Top Navbar */
 .Top_Navbar {
     background-color: #0B1416;
-    top: 0%;
+    top: 0;
     position: fixed;
     width: 100%;
     z-index: 9999900;
@@ -21,11 +23,13 @@ div a {
     justify-content: space-between;
     border-bottom: 1px solid var(--Border-Lines);
 }
+
 .Logo {
     width: 30%;
     height: 10%;
     margin-left: 100px;
 }
+
 .Person_Icon,
 .Notification_Icon,
 .Add {
@@ -33,23 +37,26 @@ div a {
     color: #f0ebeb;
     font-size: 40px;
 }
-.Person_Icon:hover{
+
+.Person_Icon:hover {
     background-color: #393A3B;
     border-radius: 10px;
 }
-/* Top Navbar END */
-/* Search Bar START */
+
+/* Search Bar */
 .Search_Bar {
     display: flex;
     align-items: center;
     flex-grow: 1;
     justify-content: center;
 }
+
 .Search_Container {
     width: 84%;
     position: relative;
     font-size: 30px;
 }
+
 .Search_Icon {
     position: absolute;
     left: 20px;
@@ -57,6 +64,7 @@ div a {
     transform: translateY(-50%);
     color: #f0ebeb;
 }
+
 .Search_Input {
     width: 600px;
     background-color: #1A282D;
@@ -66,8 +74,8 @@ div a {
     font-size: 16px;
     color: #f0ebeb;
 }
-/* Search Bar END */
-/* Side Navbar START */
+
+/* Side Navbar */
 .Side_Navbar {
     padding-top: 90px;
     margin-top: -70px;
@@ -78,6 +86,7 @@ div a {
     position: fixed;
     border-right: 1px solid var(--Border-Lines);
 }
+
 .Side_Navbar a {
     color: #f0ebeb;
     font-size: 18px;
@@ -143,6 +152,8 @@ div a {
     font-size:16px ;
 }
 /* Side Navbar Community END*/
+
+
 /* Feed START */
 .Label{
     color: #f0ebeb;
@@ -160,43 +171,37 @@ div a {
     height: 40px;
     padding: 20px;
 }
-.profileNav{
+.profileNav {
     display: flex;
     align-items: center;
     margin-left: 10px;
 }
-.profileOption{
-    padding: 0px 25px 0px 25px;
+
+.profileOption {
+    padding: 0px 25px;
     margin-left: 20px;
     margin-bottom: 5px;
     font-weight: 900;
     font-size: small;
+    position: relative; 
 }
-.profileOption:hover{
-    border: 1px;
-    border-radius: 20px;
-    background-color: #33464C;
-    cursor:pointer;
+
+.profileOption:hover::after {
+    content: "";
+    position: absolute;
+    background-color: red;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
 }
-.ProfilePost {
-    display: flex;
-    align-items: center;
-    margin: 10px 10px 20px 80px;
-}
-.CreateAPost{
-    display: flex;
-    border: 1px solid #f0ebeb;
-    padding: 10px 10px 10px 10px;
-    border-radius: 18px;
-    margin-left: 10px;
-    font-weight: 700;
-    font-size:x-small;
-    display: inline;
-}
-.CreateAPost a {
-    color: #fffcfc;
+
+.profileOption:hover {
+    cursor: pointer;
 }
 /* Feed END */
+
+
 /* Side-Profile START */
 .Side_Profile {
     background-color: #1A282D;
@@ -230,6 +235,8 @@ div a {
     font-weight: bold;
 }
 /* Side-Profile END */
+
+
 /* Timeline START */
 .Timeline {
     margin-left: 360px;
