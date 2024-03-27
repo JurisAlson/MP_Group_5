@@ -53,9 +53,10 @@ document.addEventListener("DOMContentLoaded", function () {
         container = document.querySelector('.Feed_Container')
         container.innerHTML = '';
         const discussions = getDiscussionsAsArray();
+        console.log("________________________________")
         discussions.forEach(discussion => {
-            console.log(discussion.title);
-            console.log(discussion.content);
+            const message = `ID: ${discussion.id}\n title: ${discussion.title} \n content: ${discussion.content} \n comments: ${discussion.comments}`
+            console.log(message);
             const discussionElement = document.createElement('div');
             discussionElement.className = 'News_Post';
             discussionElement.innerHTML = `
@@ -64,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <p>${discussion.content}</p>
             <a href="#" class="read-more">Read more</a>
             <div class="extended-content">  
-            <ul>
+            <ul class="text-white scroll-container">
                 ${discussion.comments.map(comment => `<li>${comment}</li>`).join('')}
             </ul>
             <div class="comment-form">
@@ -106,16 +107,30 @@ document.addEventListener("DOMContentLoaded", function () {
         localStorage.setItem('discussions', JSON.stringify(discussions));
         displayDiscussions();
     }
+    function createDiscussionManually(title, content) {
+        const discussions = getDiscussionsAsArray();
+
+        const myDiscussion = new Discussion(title, content);
+        myDiscussion.addComment("Elmers Glue Fixes a Car");
+        myDiscussion.addComment("Max Verstappen Wins Again");
+        discussions.push(myDiscussion);
+
+        localStorage.setItem('discussions', JSON.stringify(discussions));
+    }
     function addComment(id, comment) {
-        const discussion = discussions.find(discussion => discussion.id === id);
-        if (discussion) {
-            discussion.addComment(comment);
+        const discussions = getDiscussionsAsArray();
+        const discussionIndex = discussions.findIndex(discussion => discussion.id === id);
+        if (discussionIndex !== -1) {
+            discussions[discussionIndex].addComment(comment);
+            localStorage.setItem('discussions', JSON.stringify(discussions));
             console.log(`Comment added to discussion ${id}.`);
+            console.log(discussions[discussionIndex].comments);
         } else {
             console.log(`Discussion with ID ${id} not found.`);
         }
         displayDiscussions();
     }
+    // createDiscussionManually("The Formula 1 drama","Low low low")
     displayDiscussions();
     document.getElementById("publish-button").addEventListener("click", createDiscussion);
 });
